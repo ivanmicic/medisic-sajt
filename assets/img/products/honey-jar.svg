@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <defs>
+    <linearGradient id="h" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5d78e"/>
+      <stop offset="100%" stop-color="#a66b1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="#faf7f2"/>
+  <ellipse cx="450" cy="620" rx="220" ry="280" fill="url(#h)"/>
+  <text x="450" y="1100" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#5c4f42">Prirodni med</text>
+</svg>

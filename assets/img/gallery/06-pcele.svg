@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#e8c98a"/>
+  <ellipse cx="400" cy="380" rx="40" ry="28" fill="#f5d78e"/>
+  <ellipse cx="360" cy="340" rx="36" ry="18" fill="#fff" opacity="0.5" transform="rotate(-20 360 340)"/>
+  <ellipse cx="440" cy="345" rx="34" ry="16" fill="#fff" opacity="0.4" transform="rotate(25 440 345)"/>
+  <text x="400" y="720" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#2a2118" opacity="0.55">Pele</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f3e6d0"/>
+  <rect x="360" y="140" width="80" height="280" rx="10" fill="#c4892a"/>
+  <rect x="375" y="120" width="50" height="30" rx="4" fill="#a66b1a"/>
+  <text x="400" y="520" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#2a2118" opacity="0.6">Kajsijevaa</text>
+</svg>

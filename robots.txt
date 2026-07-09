@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Do not index utility / draft folders
+Disallow: /shared/
+Disallow: /seo/
+
+Sitemap: https://www.medisic.rs/sitemap.xml

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#f3e6d0"/>
+  <circle cx="320" cy="360" r="70" fill="#c4892a" opacity="0.5"/>
+  <circle cx="480" cy="400" r="90" fill="#a66b1a" opacity="0.35"/>
+  <text x="400" y="720" text-anchor="middle" font-family="Georgia, serif" font-size="26" fill="#2a2118" opacity="0.55">Rad</text>
+</svg>
