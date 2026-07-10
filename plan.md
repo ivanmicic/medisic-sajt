@@ -35,6 +35,28 @@ Dvojezičan (SR/EN) statički sajt. Ovaj fajl služi kao trajni zapis svih urađ
 
 ## Dnevnik izmena
 
+### 2026-07-10 — Prave fotografije (lični ton)
+
+#### Mediji
+- Originali iz `galerija/` konvertovani u WebP i raspoređeni u `assets/img/`
+- `farm/` — `medar-nemanja.webp`, `medisic-ram.webp` (lice gazdinstva + ram „Medišić 2020“)
+- `products/` — bagremov med, medovi, saće, suncokretov med; `rakije/preview.webp` + `hero.webp`
+- `gallery/` — 12 fotografija za grid i lightbox
+- `brand/og-default.webp` — 1200×630 crop od Nemanjine fotografije
+
+#### Gde su ubačene
+- **Početna (SR/EN)** — Nemanja u „O gazdinstvu“, tegla i rakija u proizvodima, suncokretov med u „Zašto med“, preview galerije
+- **O nama (SR/EN)** — Nemanja (intro), ram Medišić (priča), saće (košnice)
+- **Bagremov med / Proizvodi / Rakije / Kontakt** — SVG placeholderi zamenjeni odgovarajućim WebP snimcima
+- **Galerija (SR/EN)** — ceo grid na pravim fotografijama; filteri: Rad, Pčele, Med, Proizvodi
+
+#### Ostalo
+- Alt tekstovi usklađeni sa sadržajem snimaka (SR/EN)
+- Placeholder SVG ostaju samo gde još nema fotke (polen, propolis, vosak, pojedinačne rakije, nagrade, hero poster)
+- U git idu samo optimizovani WebP u `assets/img/` (sirovi originali u `galerija/` ostaju lokalno)
+
+---
+
 ### 2026-07-09 — Početni build sajta
 
 #### Arhitektura i layout
@@ -86,8 +108,10 @@ Dvojezičan (SR/EN) statički sajt. Ovaj fajl služi kao trajni zapis svih urađ
 - [ ] Potvrditi pravi domen i zameniti `www.medisic.rs` ako treba
 - [ ] Ubaci pravi `GA_MEASUREMENT_ID` (HTML + `analytics.js`)
 - [ ] Zameniti placeholder telefon, email, Instagram URL, adresu
-- [ ] Ubaci prave fotografije (WebP) i hero video (WebM/MP4)
-- [ ] Ubaci pravi `og-default.webp` (1200×630)
+- [x] Ubaci prave fotografije (WebP) — 2026-07-10
+- [ ] Ubaci hero video (WebM/MP4)
+- [x] Ubaci pravi `og-default.webp` (1200×630) — crop od Nemanjine fotografije
+- [ ] Dopuniti fotke: košnice, boce rakija, nagrade (trenutno još SVG)
 - [ ] Dopuniti asortiman rakija i nagrade → tada Product schema na rakijama
 - [ ] Povezati kontakt formu na backend / form servis
 - [ ] Self-hostovati fontove (umesto Google Fonts) radi CWV
